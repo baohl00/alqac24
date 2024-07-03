@@ -6,6 +6,8 @@ Member: **Hoang-Bao Le.**
 
 Affiliation: **Dublin City University.**  
 
+_For further information, please drop an [`email`](bao.le2@mail.dcu.ie)._
+
 # Methodology
 
 1. **Pipeline**: 
