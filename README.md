@@ -140,10 +140,10 @@ torchrun --nnodes=1 --nproc_per_node=2 --master_port=25035 \
 | bm25 attention cnn | 0.5 | 63.46 | x | x |
 | bm25s | x | 72.16 | x | x |
 
-**Fine-tuned model and Inference**
+**Fine-tuned LLaMA3 (version 8B Instruct) and Inference**
 
-| Model LLaMA3 | Accuracy | Note |
+| Epoch(s) | Accuracy | Note |
 | --- | --- | --- |
-| 1 epo | 75 | Keep the first word |
-| 3 epo | 81.73 | Keep the first word |
-| 5 epo | 84.14 | + Manually  |
+| 1 | 75 | Keep the first word |
+| 3 | 81.73 | Keep the first word |
+| 5 | 84.14 | + Manually  |
