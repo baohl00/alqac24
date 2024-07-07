@@ -2,8 +2,8 @@ import torch
 from peft import PeftModel
 from transformers import AutoTokenizer, AutoModelForCausalLM
 
-model_name_or_path = '/home/support/llm/Meta-Llama-3-8B-Instruct/'
-lora_path = '/home/hle/alqac24/QA-for-legal/LirQuA/ckpt/Meta-Llama-3-8B-Instruct_lora_1-epo'
+model_name_or_path = './Meta-Llama-3-8B-Instruct/'
+lora_path = './ckpt/Meta-Llama-3-8B-Instruct_lora_1-epo'
 
 tokenizer = AutoTokenizer.from_pretrained(model_name_or_path, use_fast=False)
 model = AutoModelForCausalLM.from_pretrained(model_name_or_path)
