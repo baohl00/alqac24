@@ -4,10 +4,8 @@ from transformers import AutoTokenizer, AutoModelForCausalLM
 import pandas as pd 
 from tqdm import tqdm 
 
-model_name_or_path = '/home/support/llm/Meta-Llama-3-8B-Instruct/'
-lora_path = '/home/hle/alqac24/QA-for-legal/LirQuA/ckpt/Meta-Llama-3-8B-Instruct_lora_5-epo_1.0'
-#lora_path = '/home/hle/alqac24/QA-for-legal/LirQuA/ckpt/Meta-Llama-3-8B-Instruct_lora_1-epo'
-
+model_name_or_path = './Meta-Llama-3-8B-Instruct/'
+lora_path = './ckpt/Meta-Llama-3-8B-Instruct_lora_5-epo_1.0'
 
 tokenizer = AutoTokenizer.from_pretrained(model_name_or_path, use_fast=False)
 model = AutoModelForCausalLM.from_pretrained(model_name_or_path)
