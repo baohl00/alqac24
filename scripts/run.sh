@@ -1,5 +1,5 @@
 #MODEL="./Vistral-7B-Chat"
-#MODEL="/home/support/llm/Meta-Llama-3-8B-Instruct"
+#MODEL="./Meta-Llama-3-8B-Instruct"
 #MODEL="NousResearch/Llama-2-7b-chat-hf"
 #MODEL="chillies/vistral-legal-chat-q4"
 MODEL="chillies/vinallama-legal-chat"
