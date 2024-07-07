@@ -62,7 +62,7 @@ def final(args):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
 
-    parser.add_argument("--model_id", default="/home/support/llm/Meta-Llama-3-8B-Instruct", help="path to model id")
+    parser.add_argument("--model_id", default="./Meta-Llama-3-8B-Instruct", help="path to model id")
     parser.add_argument("--file", default="./data/public_test.json", help="path to data file")
 #    parser.add_argument("--output_dir")
     args = parser.parse_args()
