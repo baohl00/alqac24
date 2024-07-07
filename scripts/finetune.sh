@@ -1,5 +1,5 @@
-BASE_DIR=/home/hle/alqac24/QA-for-legal/LirQuA
-MODEL=/home/support/llm/Meta-Llama-3-8B-Instruct
+BASE_DIR=.
+MODEL=./Meta-Llama-3-8B-Instruct
 #MODEL=vilm/vinallama-2.7b-chat
 CONFIG=${BASE_DIR}/scripts/zero3_offload.json
 OUTDIR=${BASE_DIR}/ckpt/${MODEL}
