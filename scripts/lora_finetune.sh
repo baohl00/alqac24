@@ -1,4 +1,4 @@
-BASE_DIR=/home/hle/alqac24/QA-for-legal/LirQuA
+BASE_DIR=.
 MODEL=Meta-Llama-3-8B-Instruct
 #MODEL=vilm/vinallama-2.7b-chat
 CONFIG=${BASE_DIR}/scripts/zero3_offload.json
@@ -11,7 +11,7 @@ export CUDA_VISIBLE_DEVICES=0,1
 #python3 ${BASE_DIR}/train.py \
 torchrun --nnodes=1 --nproc_per_node=2 --master_port=25035 \
 	${BASE_DIR}/train.py \
-	--model_name_or_path /home/support/llm/${MODEL} \
+	--model_name_or_path ./${MODEL} \
 	--data_path ${TRAIN_FILE} \
 	--lora_enable True\
 	--lora_r 16 \
