@@ -146,4 +146,4 @@ torchrun --nnodes=1 --nproc_per_node=2 --master_port=25035 \
 | --- | --- | --- |
 | 1 | 75 | Keep the first word |
 | 3 | 81.73 | Keep the first word |
-| 5 | 84.14 | + Manually  |
+| 5 | 84.14 | + Rule base for special cases  |
