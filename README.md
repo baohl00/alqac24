@@ -147,3 +147,24 @@ torchrun --nnodes=1 --nproc_per_node=2 --master_port=25035 \
 | 1 | 75 | Keep the first word |
 | 3 | 81.73 | Keep the first word |
 | 5 | 84.14 | + Rule base for special cases  |
+
+# Submissions
+
+**Task 1**  
+
+| File name (.json) | Description |
+| --- | --- |
+| bm25_attention | Combining the score BM25 and Attention score between corpus and query, then ranking the score to choose the top-k. |
+| bm25_attention_cnn | Combining the score BM25 and Attention score between corpus and query, however, we offer CNN layers directly into the attention process then ranking the score to choose the top-k. |
+| bm25s | Applying the [bm25s](https://github.com/xhluca/bm25s) without adding any element else. | 
+
+
+**Task 2**
+
+| File name (.json) | Description |
+| --- | --- |
+| 1epo | Fine-tuning with LoRA Adapter and Total train set in 1 epoch. | 
+| 3epo | Fine-tuning with LoRA Adapter and Total train set in 3 epochs. |
+| 5epo | Fine-tuning with LoRA Adapter and Total train set in 5 epochs. |
+
+Both 3 models above are fine-tuned with the same hyperparameters with 1 GPU A100. 
