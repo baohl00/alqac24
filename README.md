@@ -1,6 +1,6 @@
 # ALQAC24
 
-Team: **se7enese.**
+This is a repository of Team: **se7enese** at [ALQAC](https://sites.google.com/view/alqac-2024/home?authuser=0) of [KSE 2024](https://kse2024.kse-conferences.org/). 
 
 Member: **Hoang-Bao Le.** 
 
