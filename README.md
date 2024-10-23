@@ -1,7 +1,10 @@
 # ALQAC24
 
 This is a repository of Team: **se7enese** at [ALQAC](https://sites.google.com/view/alqac-2024/home?authuser=0) of [KSE 2024](https://kse2024.kse-conferences.org/). 
-
+ALQAC, which is Automated Legal Question Answering Competition, includes two tasks:  
+- Legal Document Retrieval.  
+- Legal Question Answering.  
+ 
 Member: **Hoang-Bao Le.** 
 
 Affiliation: **Dublin City University.**  
